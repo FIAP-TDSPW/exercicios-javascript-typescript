@@ -29,3 +29,21 @@ console.log(dobrarNumero(5)); // Deve imprimir 10
 console.log(dobrarNumero(10)); // Deve imprimir 20
 
 */
+
+function verifyMajority(age) {
+   if (age < 18) {
+      return `${age} Menor de idade`
+   } 
+
+   return `${age} Maior de idade`
+}
+
+function doubleNumber(number) {
+   return number * 2;
+}
+
+console.log(doubleNumber(5)); 
+console.log(doubleNumber(10)); 
+console.log(verifyMajority(23)) 
+console.log(verifyMajority(18)) 
+console.log(verifyMajority(15)) 

@@ -24,3 +24,36 @@
  * - Caso encontre dificuldades, consulte a documentação do JavaScript ou peça ajuda a um colega ou professor.
  * 
  */
+
+function calculateDiscount(price, discountPercentage) {
+    const discount = (discountPercentage / 100) * price
+    const newPrice = price - discount
+    return newPrice
+}
+
+function verifyEvenOrOdd(number) {
+    isNumberEven = number % 2 === 0
+
+    switch (isNumberEven) {
+        case true:
+            return 'par'
+            break;
+        case false:
+            return 'ímpar'
+            break;    
+        default:
+            break;
+    }
+}
+
+function verifyNegative(number) {
+    const isNumberNegative = number < 0
+    return isNumberNegative
+}
+
+console.log(calculateDiscount(100, 10)); // Deve retornar 90
+console.log(calculateDiscount(20, 53).toFixed(2)) // Deve dar 9.4
+console.log(verifyEvenOrOdd(5)); // Deve retornar 'ímpar'
+console.log(verifyEvenOrOdd(12)); // Deve retornar 'par'
+console.log(verifyNegative(684)); // Deve retornar false
+

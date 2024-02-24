@@ -22,3 +22,34 @@
  * - Caso encontre dificuldades, consulte a documentação do JavaScript ou peça ajuda a um colega ou professor.
  * 
  */
+
+
+function verifyDayOfTheWeek(day) {
+    switch (day) {
+        case 1:
+            return "Domingo"
+        case 2:
+            return "Segunda-feira"
+        case 3:
+            return "Terça-feira"
+        case 4:
+            return "Quarta-feira"
+        case 5:
+            return "Quinta-feira"
+        case 6:
+            return "Sexta-feira"
+        case 7:
+            return "Sábado"
+        default:
+            return "Dia inválido"
+    }
+} 
+
+console.log(verifyDayOfTheWeek(1)) // Deve retornar 'Domingo'
+console.log(verifyDayOfTheWeek(2)) // Deve retornar 'Segunda-feira'
+console.log(verifyDayOfTheWeek(3)); // Deve retornar 'Terça-feira'
+console.log(verifyDayOfTheWeek(4)); // Deve retornar 'Quarta-feira'
+console.log(verifyDayOfTheWeek(5)); // Deve retornar 'Quinta-feira'
+console.log(verifyDayOfTheWeek(6)); // Deve retornar 'Sexta-feira'
+console.log(verifyDayOfTheWeek(7)); // Deve retornar 'Sábado'
+console.log(verifyDayOfTheWeek(8)); // Deve retornar 'Dia inválido'

@@ -25,3 +25,29 @@
  * - Experimente criar seus próprios casos de teste para verificar se as funções estão se comportando conforme o esperado.
  * - Caso encontre dificuldades, consulte a documentação do JavaScript ou peça auxílio a um colega ou professor.
  */
+
+function printNumbers(number) {
+    for (let index = 1; index <= number; index++) {
+        console.log(index);
+    }
+}
+
+function printEvens(number) {
+    for (let index = 2; index <= number; index++){
+        if (index % 2 === 0) {
+            console.log(index);
+        }
+    }
+}
+
+console.log("Números até 5: ");
+printNumbers(5)
+
+console.log("Números até 24: ");
+printNumbers(24)
+
+console.log("Números pares até 10: ")
+printEvens(10)
+
+console.log("Números pares até 32: ")
+printEvens(32)
