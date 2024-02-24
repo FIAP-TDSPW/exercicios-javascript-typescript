@@ -12,7 +12,7 @@ Após criar essa nova função, teste-a com alguns valores e imprima o resultado
 
 Você pode executar o código usando Node.js ou qualquer outro ambiente de execução JavaScript para verificar se a nova função foi implementada corretamente. */
 
-/* Código para o aluno:
+//Código para o aluno:
 
 // Função para verificar a maioridade
 function verificarMaioridade(idade) {
@@ -28,4 +28,4 @@ function dobrarNumero(numero) {
 console.log(dobrarNumero(5)); // Deve imprimir 10
 console.log(dobrarNumero(10)); // Deve imprimir 20
 
-*/
+
