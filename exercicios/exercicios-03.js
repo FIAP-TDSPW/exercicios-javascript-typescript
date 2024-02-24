@@ -13,6 +13,41 @@
  * 2. Utilize os operadores necessários para realizar as operações dentro das funções.
  * 3. Teste suas funções com diferentes valores de entrada para garantir que elas estão funcionando corretamente.
  * 
+ * 
+ * 
+ */
+function calcularDesconto(preco, desconto) {
+     desconto = (preco / desconto) 
+     preco = preco - desconto
+
+     return preco
+}
+
+console.log(calcularDesconto(100, 10));
+
+function verificarParOuImpar(varImpar) {
+    if (varImpar%2 != 0) {
+        console.log("impar")
+    }else{
+        console.log("par")
+
+    } 
+}
+(verificarParOuImpar(5)); // Deve retornar 'ímpar'
+
+
+function verificarNegativo(isNegativo) {
+    statusValor = true
+    if (isNegativo < 0) {
+        statusValor = true
+    }else{
+        statusValor = false
+
+    }
+    return statusValor   
+}
+console.log(verificarNegativo(-3)); // Deve retornar true
+/** 
  * Exemplo de Uso:
  * console.log(calcularDesconto(100, 10)); // Deve retornar 90
  * console.log(verificarParOuImpar(5)); // Deve retornar 'ímpar'
