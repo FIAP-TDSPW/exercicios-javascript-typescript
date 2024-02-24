@@ -24,3 +24,52 @@
  * - Caso encontre dificuldades, consulte a documentação do JavaScript ou peça ajuda a um colega ou professor.
  * 
  */
+
+//Respostas
+
+//Função de Desconto
+function calcularDesconto(preco, percentualDesconto){
+    desconto = preco * (percentualDesconto/100)
+    precoDesconto = preco - desconto
+    return precoDesconto;
+}
+
+//Resposta: 90
+console.log(calcularDesconto(100, 10));
+
+//Resposta: 400
+console.log(calcularDesconto(500, 20));
+
+//Função Par ou Ímpar
+function verificarParouImpar(numero){
+    if (numero % 2 === 0){
+        return 'par';
+    }else{
+        return 'ímpar';
+    }
+}
+
+//Teste Ímpar
+console.log(verificarParouImpar((7)));
+
+//Teste Par
+console.log(verificarParouImpar((24)));
+
+//Função verificação de negativo
+//Negativo = true
+//Positivo = false
+
+function verificarNegativo(numero){
+    if (numero < 0){
+        return 'True';
+    }else{
+        return 'false';
+    }
+}
+
+//Teste True 
+console.log(verificarNegativo((-9)));
+
+//Teste False 
+console.log(verificarNegativo((3)));
+
