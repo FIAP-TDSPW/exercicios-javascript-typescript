@@ -12,6 +12,27 @@ Após criar essa nova função, teste-a com alguns valores e imprima o resultado
 
 Você pode executar o código usando Node.js ou qualquer outro ambiente de execução JavaScript para verificar se a nova função foi implementada corretamente. */
 
+function verificaMaioridade(idade){
+   if (idade >= 18) {
+      console.log("Você é maior de idade.")
+   } else if (idade<18) {
+      console.log("Você é de menor. Pivete.")
+   } else{
+      console.log("Idade não identificada")
+   }
+}
+
+verificaMaioridade(24)
+
+function dobraNumero(num){
+   let dobro = num + num
+   console.log(dobro)
+}
+
+dobraNumero(25)
+dobraNumero(65)
+dobraNumero(12)
+
 /* Código para o aluno:
 
 // Função para verificar a maioridade

@@ -24,3 +24,26 @@
  * - Caso encontre dificuldades, consulte a documentação do JavaScript ou peça ajuda a um colega ou professor.
  * 
  */
+
+function calcularDesconto(preco, percentualDesconto) {
+    desconto = preco*percentualDesconto
+    precoDescontado = preco-desconto
+    console.log(precoDescontado)
+}
+
+calcularDesconto(100, 0.4)
+calcularDesconto(349.99, .25)
+
+function verificarParOuImpar(num) {
+    if (num % 2 == 0) {
+        console.log(`O numero ${num} é par`)
+    } else {
+        console.log(`O numero ${num} é impar`)
+    }
+}
+
+verificarParOuImpar(6)
+verificarParOuImpar(99)
+verificarParOuImpar(10)
+verificarParOuImpar(-3)
+verificarParOuImpar(6.6)
