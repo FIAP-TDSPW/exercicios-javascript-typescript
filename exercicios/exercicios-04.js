@@ -22,3 +22,33 @@
  * - Caso encontre dificuldades, consulte a documentação do JavaScript ou peça ajuda a um colega ou professor.
  * 
  */
+
+let diaDaSemana=3;
+function verificarDiaSemana(diaDaSemana){
+    switch (diaDaSemana){
+        case 1:
+            console.log("segunda");
+            break;
+        case 2:
+            console.log("terça");
+            break
+        case 3:
+            console.log("quarta");
+            break
+        case 4:
+            console.log("quinta");   
+            break
+        case 5:
+            console.log("sexta");  
+            break          
+    default:
+        console.log("dia invalido")
+     }
+}
+ 
+
+ console.log(verificarDiaSemana(1)); // Deve retornar 'Domingo'
+ console.log(verificarDiaSemana(3)); // Deve retornar 'Terça-feira'
+ console.log(verificarDiaSemana(6)); // Deve retornar 'Sexta-feira'
+ console.log(verificarDiaSemana(8)); // Deve retornar 'Dia inválido'
+ 

@@ -12,3 +12,16 @@
 Após realizar essas alterações, imprima todas as variáveis no console.
 
 Você pode executar o código usando Node.js ou qualquer outro ambiente de execução JavaScript para verificar se as alterações foram feitas corretamente. */
+
+var idade = 19;
+var nome ="Danizinha";
+var isAtivo = true;
+
+var idade=20;
+var nome="Danielão";
+var isAtivo=false;
+
+console.log(idade,nome,isAtivo)
+/*comentário super daora*/
+
+
