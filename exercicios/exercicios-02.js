@@ -29,3 +29,23 @@ console.log(dobrarNumero(5)); // Deve imprimir 10
 console.log(dobrarNumero(10)); // Deve imprimir 20
 
 */
+
+// Função para verificar a maioridade
+function verificarMaioridade() {
+   let idade = 23;
+      if (idade >= 18);
+      console.log("Você é maior de idade, então já pode ir para a cadeia")
+}
+verificarMaioridade();
+
+
+// Função para dobrar um número
+function dobrarNumero(numero) {
+   return numero * 2;
+}
+
+// Teste da função dobrarNumero
+console.log(dobrarNumero(5));  
+console.log(dobrarNumero(10)); 
+console.log(dobrarNumero(-3)); 
+console.log(dobrarNumero(0));  
