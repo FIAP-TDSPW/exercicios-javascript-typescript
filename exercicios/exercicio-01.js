@@ -12,3 +12,15 @@
 Após realizar essas alterações, imprima todas as variáveis no console.
 
 Você pode executar o código usando Node.js ou qualquer outro ambiente de execução JavaScript para verificar se as alterações foram feitas corretamente. */
+
+var idade = 15;
+var nome = 'Ana';
+var ativo = true;
+
+var idade = 18;
+var nome = 'Mari';
+var ativo = false;
+
+console.log(idade, nome, ativo)
+
+/* exercicio 1 feito */

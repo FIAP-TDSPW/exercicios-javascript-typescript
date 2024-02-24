@@ -25,3 +25,28 @@
  * - Experimente criar seus próprios casos de teste para verificar se as funções estão se comportando conforme o esperado.
  * - Caso encontre dificuldades, consulte a documentação do JavaScript ou peça auxílio a um colega ou professor.
  */
+
+
+ // Função para imprimir todos os números de 1 até o número fornecido
+function imprimirNumeros(numero) {
+    console.log("Números até " + numero + ":");
+    for (let i = 1; i <= numero; i++) {
+        console.log(i);
+    }
+}
+
+
+// Função para imprimir todos os números pares de 2 até o número fornecido
+function imprimirPares(numero) {
+    console.log("Números pares até " + numero + ":");
+    for (let i = 2; i <= numero; i += 2) {
+        console.log(i);
+    }
+}
+
+// Teste das funções
+console.log("Números até 5:");
+imprimirNumeros(5); // Deve imprimir 1, 2, 3, 4, 5
+
+console.log("\nNúmeros pares até 10:");
+imprimirPares(10); // Deve imprimir 2, 4, 6, 8, 10
