@@ -5,9 +5,32 @@
  * O objetivo deste exercício é praticar o uso da estrutura de controle switch em JavaScript.
  * 
  * Instruções:
- * Implemente a função verificarDiaSemana(numero) que recebe um número correspondente a um dia da semana (1 para Domingo, 2 para Segunda-feira, etc.) e retorna o nome do dia.
- * 
- * Utilize a estrutura de controle switch para implementar a lógica da função.
+ * Implemente a função verificarDiaSemana(numero) que recebe um número correspondente a um dia da semana (1 para Domingo, 2 para Segunda-feira, etc.) e retorna o nome do dia.*/
+
+function verificarDiaSemana(numero){
+    switch(numero){
+        case 1:
+            return 'Domingo';
+        case 2:
+            return 'Segunda-feira';
+        case 3:
+            return 'Terça-feira';
+        case 4:
+            return 'Quarta-feira';
+        case 5:
+            return 'Quinta-feira';
+        case 6:
+            return 'Sexta-feira';
+        case 7:
+            return 'Sábado';
+        default:
+            return 'Dia inválido';
+    }
+}
+
+console.log(verificarDiaSemana(7));
+
+/* Utilize a estrutura de controle switch para implementar a lógica da função.
  * 
  * Teste a função com diferentes valores de entrada para garantir que ela está funcionando corretamente.
  * 

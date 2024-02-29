@@ -2,9 +2,17 @@
 
 1. Função para verificar a maioridade
 
-Sua tarefa é criar uma nova função:
+Sua tarefa é criar uma nova função:*/
 
-2. Função para dobrar um número
+function verificarMaioridade(idade){
+   return idade >= 18;
+}
+
+idade = 17;
+
+console.log(verificarMaioridade(idade));
+
+/* 2. Função para dobrar um número
 
 Esta função deve receber um parâmetro do tipo number e retornar o dobro desse número.
 
@@ -29,3 +37,9 @@ console.log(dobrarNumero(5)); // Deve imprimir 10
 console.log(dobrarNumero(10)); // Deve imprimir 20
 
 */
+
+function dobrarNumero(numero){
+   return numero * 2;
+}
+
+console.log(dobrarNumero(10));
